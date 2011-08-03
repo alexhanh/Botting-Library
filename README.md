@@ -4,9 +4,13 @@ This projects contains parts of an automated gameplay (ie. botting) framework. I
 
 Large part of the code has been in use last time in 2010 and hasn't been maintained or tested after that.
 
+GR.Cryptography
+---------------
+MD5 has a helper method for generating a checksum from a stream.
+
 GR.Interop.Win32
 ----------------
-ExternalProcess is used for managing external process's memory: reading from it, writing to it, allocating and releasing.
+ExternalProcess is used for managing external process's memory: reading, writing, allocating and releasing.
 
 User32 and Interop just contain a bunch of imports from different Windows DLLs, mainly User32.dll and gdi32.dll.
 
