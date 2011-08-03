@@ -12,6 +12,30 @@ GR.Cryptography
 ---------------
 MD5 has a helper method for generating a checksum from a stream.
 
+GR.Imaging
+----------
+Contains various classes for dealing with image data.
+
+BitmapAnalyzer: methods for analyzing, comparing and modifying FastBitmaps.
+
+BitmapIO: save and load FastBitmaps to and from disk.
+
+BitmapMask: sometimes you need to test if an image is inside another image. BitmapMask stores the image and the location and can test whether it is inside another image.
+
+BucketImage: used to create multiple buckets from a FastBitmap. This is used by an OCR engine.
+
+ColorRange: range of colors from one to another.
+
+FastBitmap: the default Bitmap's .GetPixel() and .SetPixel() methods are very slow because .Net locks the entire Bitmap data on each call. FastBitmap locks the Bitmap data from a regular Bitmap object once, thus pixel manipulation is extremely fast.
+
+ImageFilter: contains a binary filter which converts image data to black and white pixels depending on lumenance.
+
+PixelMask: same as BitmapMask but with a single color as the match data instead.
+
+PixelMaskCollection: a collection of PixelMask to hold and match multiple PixelMasks at once.
+
+Screenshot: for taking screenshots of the entire desktop. It can also capture the mouse cursor.
+
 GR.Interop.Win32
 ----------------
 ExternalProcess is used for managing external process's memory: reading, writing, allocating and releasing.
