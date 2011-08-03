@@ -40,6 +40,10 @@ GR.Imaging.OCR
 --------------
 OCR engine for pixel-perfect text recognition. It generates its internal matching library on the fly from the given font names and font sizes.
 
+GR.Input
+--------
+For simulating keyboard and mouse actions. Mouse can be set to use a click distribution to emulate human like click distribution (normal distribution) inside a region. ScarMouse tries to emulate more human-like mouse paths by deviating from a straight line.
+
 GR.Interop.Win32
 ----------------
 ExternalProcess is used for managing external process's memory: reading, writing, allocating and releasing.
