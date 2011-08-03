@@ -12,6 +12,10 @@ GR.Cryptography
 ---------------
 MD5 has a helper method for generating a checksum from a stream.
 
+GR.Gambling
+-----------
+Contains abstract classes, VenueClient and GameWindow, which serve as a base for building an automated bot.
+
 GR.Imaging
 ----------
 Contains various classes for dealing with image data.
@@ -42,7 +46,7 @@ OCR engine for pixel-perfect text recognition. It generates its internal matchin
 
 GR.Input
 --------
-For simulating keyboard and mouse actions. Mouse can be set to use a click distribution to emulate human like click distribution (normal distribution) inside a region. ScarMouse tries to emulate more human-like mouse paths by deviating from a straight line.
+For simulating keyboard and mouse actions. Mouse can be set to use a click distribution to emulate human like click distribution inside a region. ScarMouse tries to emulate more human-like mouse paths by deviating from a straight line.
 
 GR.Interop.Win32
 ----------------
