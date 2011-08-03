@@ -4,6 +4,10 @@ This projects contains parts of an automated gameplay (ie. botting) framework. I
 
 Large part of the code has been in use last time in 2010 and hasn't been maintained or tested after that.
 
+GR.IO
+-----
+PathHelper generates auto-incrementing unique filename in a given folder.
+
 GR.Net.Mail
 -----------
 Contains a simple GMail client for sending emails.
