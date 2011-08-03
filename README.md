@@ -4,6 +4,10 @@ This projects contains parts of an automated gameplay (ie. botting) framework. I
 
 Large part of the code has been in use last time in 2010 and hasn't been maintained or tested after that.
 
+GR.Common.Logging
+-----------------
+ConsoleCapturer can be used to capture the application's console's STDOUT and STDERROR.
+
 GR.Cryptography
 ---------------
 MD5 has a helper method for generating a checksum from a stream.
