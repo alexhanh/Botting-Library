@@ -36,6 +36,10 @@ PixelMaskCollection: a collection of PixelMask to hold and match multiple PixelM
 
 Screenshot: for taking screenshots of the entire desktop. It can also capture the mouse cursor.
 
+GR.Imaging.OCR
+--------------
+OCR engine for pixel-perfect text recognition. It generates its internal matching library on the fly from the given font names and font sizes.
+
 GR.Interop.Win32
 ----------------
 ExternalProcess is used for managing external process's memory: reading, writing, allocating and releasing.
