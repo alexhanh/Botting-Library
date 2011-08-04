@@ -22,6 +22,12 @@ GR.Gambling.Backgammon
 ----------------------
 Framework for representing and analysing backgammon games.
 
+HintModule abstracts solvers for backgammon. There's a concrete implementation for GnuBg.
+
+GR.Gambling.Backgammon.Utils
+----------------------------
+GameStateRenderer renders a backgammon position to a Bitmap.
+
 GR.Imaging
 ----------
 Contains various classes for dealing with image data.
