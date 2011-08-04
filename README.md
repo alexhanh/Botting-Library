@@ -4,6 +4,10 @@ This projects contains parts of an automated gameplay (ie. botting) framework. I
 
 Large part of the code has been in use last time in 2010 and hasn't been maintained or tested after that.
 
+Bopycat
+-------
+Play against the AI and the program learns your playstyle: how long it takes you to make moves, how often and when you make undos, etc.
+
 GR.Common.Logging
 -----------------
 ConsoleCapturer can be used to capture the application's console's STDOUT and STDERROR.
@@ -38,7 +42,7 @@ BGConverter converts game state to GnuBg ASCII format and imports from FIBS id s
 
 GR.Gambling.Backgammon.HCI
 --------------------------
-Different models to represent human-like gameplay with time pauses.
+Different models to represent human-like gameplay with time pauses and undos.
 
 NeuralThinker lears from a defined set of actions, which can be recorded with Bopycat.
 
