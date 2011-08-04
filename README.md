@@ -12,6 +12,10 @@ GR.Cryptography
 ---------------
 MD5 has a helper method for generating a checksum from a stream.
 
+GR.Data
+-------
+PersistantStorage is a simple key-value storage.
+
 GR.Gambling
 -----------
 Contains abstract classes, VenueClient and GameWindow, which serve as a base for building an automated bot.
