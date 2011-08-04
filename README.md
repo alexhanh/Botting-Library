@@ -16,6 +16,12 @@ GR.Gambling
 -----------
 Contains abstract classes, VenueClient and GameWindow, which serve as a base for building an automated bot.
 
+VenueClient serves as an abstraction between whatever is managing the overall gameplay and the actual venue program.
+
+GR.Gambling.Backgammon
+----------------------
+Framework for representing and analysing backgammon games.
+
 GR.Imaging
 ----------
 Contains various classes for dealing with image data.
