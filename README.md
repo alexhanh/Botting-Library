@@ -54,6 +54,10 @@ GR.Gambling.Backgammon.Venue
 ----------------------------
 Classes for abstracting interaction with online backgammon gambling venues.
 
+GR.Gambling.Bot
+---------------
+Misc classes useful for botting purposes. Allows to create and queue jobs (uses Quartz).
+
 GR.Imaging
 ----------
 Contains various classes for dealing with image data.
