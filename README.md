@@ -28,6 +28,10 @@ Framework for representing and analysing backgammon games.
 
 HintModule abstracts solvers for backgammon. There's a concrete implementation for GnuBg.
 
+GR.Gambling.Backgammon.Analysis
+-------------------------------
+BoardStatistics can calculate how many rolls a player needs to win.
+
 GR.Gambling.Backgammon.Utils
 ----------------------------
 GameStateRenderer renders a backgammon position to a Bitmap.
