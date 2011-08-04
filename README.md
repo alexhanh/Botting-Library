@@ -32,6 +32,10 @@ GR.Gambling.Backgammon.Analysis
 -------------------------------
 BoardStatistics can calculate how many rolls a player needs to win.
 
+GR.Gambling.Backgammon.Conversion
+---------------------------------
+BGConverter converts game state to GnuBg ASCII format and imports from FIBS id string.
+
 GR.Gambling.Backgammon.Utils
 ----------------------------
 GameStateRenderer renders a backgammon position to a Bitmap.
