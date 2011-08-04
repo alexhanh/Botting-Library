@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C53621E4-C223-4432-BD25-F04890216F48}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GR.Gambling.Backgammon.HCI</RootNamespace>
+    <AssemblyName>GR.Gambling.Backgammon.HCI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Test projects|AnyCPU' ">
+    <OutputPath>bin\Test projects\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BgbTimedThinker.cs" />
+    <Compile Include="ComplexTimedThinker.cs" />
+    <Compile Include="GameStateAction.cs" />
+    <Compile Include="GameStateDoubleAction.cs" />
+    <Compile Include="GameStateMoveAction.cs" />
+    <Compile Include="GameStateResignAction.cs" />
+    <Compile Include="GameStateTurnAction.cs" />
+    <Compile Include="InstantTimedThinker.cs" />
+    <Compile Include="NeuralThinker.cs" />
+    <Compile Include="SimpleTimedThinker.cs" />
+    <Compile Include="TimedMove.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimedPlay.cs" />
+    <Compile Include="TimedThinker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GR.Gambling.Backgammon.Venue\GR.Gambling.Backgammon.Venue.csproj">
+      <Project>{9F98BA35-07F2-4B46-8322-CC0469CA040B}</Project>
+      <Name>GR.Gambling.Backgammon.Venue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GR.Gambling.Backgammon\GR.Gambling.Backgammon.csproj">
+      <Project>{E585DA4D-1BAC-4B4F-A9D5-89D465D736F5}</Project>
+      <Name>GR.Gambling.Backgammon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gr.Math\GR.Math.csproj">
+      <Project>{D43C54B0-182D-48D7-9940-3407C31CB71C}</Project>
+      <Name>GR.Math</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -36,6 +36,12 @@ GR.Gambling.Backgammon.Conversion
 ---------------------------------
 BGConverter converts game state to GnuBg ASCII format and imports from FIBS id string.
 
+GR.Gambling.Backgammon.HCI
+--------------------------
+Different models to represent human-like gameplay with time pauses.
+
+NeuralThinker lears from a defined set of actions, which can be recorded with Bopycat.
+
 GR.Gambling.Backgammon.Utils
 ----------------------------
 GameStateRenderer renders a backgammon position to a Bitmap.
