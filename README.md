@@ -50,6 +50,10 @@ GR.Gambling.Backgammon.Utils
 ----------------------------
 GameStateRenderer renders a backgammon position to a Bitmap.
 
+GR.Gambling.Backgammon.Venue
+----------------------------
+Classes for abstracting interaction with online backgammon gambling venues.
+
 GR.Imaging
 ----------
 Contains various classes for dealing with image data.

@@ -3,3 +3,6 @@ obj
 *.csproj.user
 Bopycat/clients/
 GR.Gambling.Backgammon.Venue/*/
+GR.Gambling.Backgammon.Venue/BGDeployment*
+GR.Gambling.Backgammon.Venue/GR.Gambling.Backgammon.Venue.csproj
+
