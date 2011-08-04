@@ -2,3 +2,4 @@ bin
 obj
 *.csproj.user
 Bopycat/clients/
+GR.Gambling.Backgammon.Venue/*/
