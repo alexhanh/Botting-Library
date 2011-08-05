@@ -12,7 +12,7 @@ Initial steps before each example:
 - Create a new C# console application
 - Add the dependencies to the project
 
-*** Hello world example
+### Hello world example
 Writes 'hello world' to a running notepad. Dependencies: GR.Interop.Win32 and GR.Input.
 
 ```csharp
