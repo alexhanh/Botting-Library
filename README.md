@@ -2,7 +2,57 @@ GR Botting Library
 ==================
 This projects contains parts of an automated gameplay (ie. botting) framework. It has been used for various problems and games, such as Poker, Backgammon and Blackjack. Parts of the code has been used by the author to create bots for fun for Bejeweled and Tetris Battle as well.
 
-Large part of the code has been in use last time in 2010 and hasn't been maintained or tested after that.
+Large part of the code has been last time in use in 2010 and hasn't been maintained or tested after that.
+
+Examples
+--------
+
+Initial steps before each example:
+
+- Create a new C# console application
+- Add the dependencies to the project
+
+Getting notepad and writing the string 'hello world' to it:
+Dependencies: GR.Interop.Win32 and GR.Input
+```c#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using GR.Input;
+using GR.Win32;
+using System.Threading;
+using System.Diagnostics;
+
+namespace notepadtest {
+    class Program {
+        static void Main(string[] args) {
+            Window window = Window.FindWindow("Untitled - Notepad");
+
+            for (int tries = 0; tries < 2 && window == null; tries++) {
+                Console.WriteLine("Notepad not found.. launching notepad.");
+                Process.Start("notepad.exe");
+                Thread.Sleep(1000); // Give 1 second for the notepad to launch and appear in the process list
+                window = Window.FindWindow("Untitled - Notepad");
+            }
+
+            if (window == null) {
+                Console.WriteLine("Couldn't launch notepad or wasn't able to find it. :(");
+                return;
+            }
+
+            window.SetForeground(); // Set the Notepad window to foreground
+
+            Thread.Sleep(2000); // Wait for 2 seconds before typing
+
+            Keyboard.Write("hello world!");
+        }
+    }
+}
+```
+
+Description of the projects
+---------------------------
 
 ### Bopycat
 Play against the AI and the program learns your playstyle: how long it takes you to make moves, how often and when you make undos, etc.
