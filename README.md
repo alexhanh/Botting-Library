@@ -118,3 +118,7 @@ Combin, Perm, CombinBuiler and PermBuilder all remember the current state of the
 Gaussian implements the Box-Muller algorithm for generating normal distribution numbers.
 
 Prime contains very naive and slow method for checking primeness of a number. It also can generate prime numbers.
+
+GR.Rootkit
+----------
+Uses a rootkit to hide a running process.
