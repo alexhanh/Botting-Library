@@ -13,50 +13,40 @@ ConsoleCapturer can be used to capture the application's console's STDOUT and ST
 ### GR.Cryptography
 MD5 has a helper method for generating a checksum from a stream.
 
-GR.Data
--------
+### GR.Data
 PersistantStorage is a simple key-value storage.
 
-GR.Gambling
------------
+### GR.Gambling
 Contains abstract classes, VenueClient and GameWindow, which serve as a base for building an automated bot.
 
 VenueClient serves as an abstraction between whatever is managing the overall gameplay and the actual venue program.
 
-GR.Gambling.Backgammon
-----------------------
+### GR.Gambling.Backgammon
 Framework for representing and analysing backgammon games.
 
 HintModule abstracts solvers for backgammon. There's a concrete implementation for GnuBg.
 
-GR.Gambling.Backgammon.Analysis
--------------------------------
+### GR.Gambling.Backgammon.Analysis
 BoardStatistics can calculate how many rolls a player needs to win.
 
-GR.Gambling.Backgammon.Conversion
----------------------------------
+### GR.Gambling.Backgammon.Conversion
 BGConverter converts game state to GnuBg ASCII format and imports from FIBS id string.
 
-GR.Gambling.Backgammon.HCI
---------------------------
+### GR.Gambling.Backgammon.HCI
 Different models to represent human-like gameplay with time pauses and undos.
 
 NeuralThinker lears from a defined set of actions, which can be recorded with Bopycat.
 
-GR.Gambling.Backgammon.Utils
-----------------------------
+### GR.Gambling.Backgammon.Utils
 GameStateRenderer renders a backgammon position to a Bitmap.
 
-GR.Gambling.Backgammon.Venue
-----------------------------
+### GR.Gambling.Backgammon.Venue
 Classes for abstracting interaction with online backgammon gambling venues.
 
-GR.Gambling.Bot
----------------
+### GR.Gambling.Bot
 Misc classes useful for botting purposes. Allows to create and queue jobs (uses Quartz).
 
-GR.Imaging
-----------
+### GR.Imaging
 Contains various classes for dealing with image data.
 
 BitmapAnalyzer: methods for analyzing, comparing and modifying FastBitmaps.
