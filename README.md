@@ -94,6 +94,13 @@ GameStateRenderer renders a backgammon position to a Bitmap.
 ### GR.Gambling.Backgammon.Venue
 Classes for abstracting interaction with online backgammon gambling venues.
 
+### GR.Gambling.Blackjack.Simulator
+Full-blown framework for computing (optimal) strategies for Blackjack gameplay.
+
+Parts of the code used heavily in computations are implemented in C/C++ for speed.
+
+Some ideas came from http://arxiv.org/PS_cache/math/pdf/0412/0412311v1.pdf
+
 ### GR.Gambling.Bot
 Misc classes useful for botting purposes. Allows to create and queue jobs (uses Quartz).
 

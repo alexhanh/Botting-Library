@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BjEval", "BjEval.vcxproj", "{A329D7F8-FCE5-45CE-909A-528245F9B158}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BjEvalDLL", "..\BjEvalDLL\BjEvalDLL.vcxproj", "{7C1262B2-E941-400A-AF43-B8B8B47A57F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A329D7F8-FCE5-45CE-909A-528245F9B158}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A329D7F8-FCE5-45CE-909A-528245F9B158}.Debug|Win32.Build.0 = Debug|Win32
+		{A329D7F8-FCE5-45CE-909A-528245F9B158}.Release|Win32.ActiveCfg = Release|Win32
+		{A329D7F8-FCE5-45CE-909A-528245F9B158}.Release|Win32.Build.0 = Release|Win32
+		{7C1262B2-E941-400A-AF43-B8B8B47A57F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C1262B2-E941-400A-AF43-B8B8B47A57F0}.Debug|Win32.Build.0 = Debug|Win32
+		{7C1262B2-E941-400A-AF43-B8B8B47A57F0}.Release|Win32.ActiveCfg = Release|Win32
+		{7C1262B2-E941-400A-AF43-B8B8B47A57F0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
