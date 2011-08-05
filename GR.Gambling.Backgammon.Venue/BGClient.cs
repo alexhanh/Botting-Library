@@ -10,7 +10,7 @@ using GR.Win32;
 namespace GR.Gambling.Backgammon.Venue
 {
     /// <summary>
-    /// This is for different kinds of resignation methods venues have, TMG for instance doesn't let you choose the value of resignation,
+    /// This is for different kinds of resignation methods venues have, some venues for instance doesn't let you choose the value of resignation,
     /// it insted calculates the value based upon the current last chequer position.
     /// 
     /// Free to decide means that it's up to the player to decide the resign value.
