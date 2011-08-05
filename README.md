@@ -69,16 +69,13 @@ PixelMaskCollection: a collection of PixelMask to hold and match multiple PixelM
 
 Screenshot: for taking screenshots of the entire desktop. It can also capture the mouse cursor.
 
-GR.Imaging.OCR
---------------
+### GR.Imaging.OCR
 OCR engine for pixel-perfect text recognition. It generates its internal matching library on the fly from the given font names and font sizes.
 
-GR.Input
---------
+### GR.Input
 For simulating keyboard and mouse actions. Mouse can be set to use a click distribution to emulate human like click distribution inside a region. ScarMouse tries to emulate more human-like mouse paths by deviating from a straight line.
 
-GR.Interop.Win32
-----------------
+### GR.Interop.Win32
 ExternalProcess is used for managing external process's memory: reading, writing, allocating and releasing.
 
 User32 and Interop just contain a bunch of imports from different Windows DLLs, mainly User32.dll and gdi32.dll.
@@ -86,16 +83,13 @@ User32 and Interop just contain a bunch of imports from different Windows DLLs, 
 Window is wrapper class that can interact with windows through window handles, hWnds. It can query window's properties like title and rectangle,
 take a screenshot, bring the window to foreground, move it around, etc. There are also a way to find windows based on their titles.
 
-GR.IO
------
+### GR.IO
 PathHelper generates auto-incrementing unique filename in a given folder.
 
-GR.Net.Mail
------------
+### GR.Net.Mail
 Contains a simple GMail client for sending emails.
 
-GR.Math
--------
+### GR.Math
 Combin and Perm allow enumerating combinations and permutations with integers.
 
 CombinBuilder<T> and PermBuilder<T> allow enumerating combinations and permutations of any type of collection using generics.
@@ -106,6 +100,5 @@ Gaussian implements the Box-Muller algorithm for generating normal distribution 
 
 Prime contains very naive and slow method for checking primeness of a number. It also can generate prime numbers.
 
-GR.Rootkit
-----------
+### GR.Rootkit
 Uses a rootkit to hide a running process.
