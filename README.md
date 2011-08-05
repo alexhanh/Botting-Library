@@ -15,7 +15,7 @@ Initial steps before each example:
 Getting notepad and writing the string 'hello world' to it:
 Dependencies: GR.Interop.Win32 and GR.Input
 
-```ruby
+```cs
 using System;
 using System.Collections.Generic;
 using System.Linq;
